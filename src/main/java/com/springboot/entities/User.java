@@ -7,7 +7,7 @@ import javax.persistence.Id;
 
 @Entity
 public class User {
-	
+	//add comment
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int userId;
